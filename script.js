@@ -7,8 +7,6 @@ function resultRuffle() {
     const result = Math.floor(Math.random() * (inputValueMax - inputValueMin + 1)) + inputValueMin;
 
     alert(result)
-
-    
 }
 
 buttonDraw.addEventListener("click", resultRuffle)
